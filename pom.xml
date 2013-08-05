@@ -11,7 +11,7 @@
 
     <groupId>org.jboss.arquillian.extension</groupId>
     <artifactId>arquillian-phantom-driver</artifactId>
-    <version>1.0.3.1-SNAPSHOT</version>
+    <version>1.0.4-SR-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Arquillian Phantom Driver</name>
@@ -38,8 +38,7 @@
     <properties>
         <!-- versions -->
         <phantomjs.version>1.9.0</phantomjs.version>
-        <selenium.version>2.31.0</selenium.version>
-        <phantomjs.driver.version>1.0.3</phantomjs.driver.version>
+        <phantomjs.driver.version>1.0.4</phantomjs.driver.version>
         <junit.version>4.11</junit.version>
 
         <!-- paths -->
@@ -51,7 +50,7 @@
         <dependency>
             <groupId>com.github.detro.ghostdriver</groupId>
             <artifactId>phantomjsdriver</artifactId>
-            <version>1.0.3</version>
+            <version>${phantomjs.driver.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
