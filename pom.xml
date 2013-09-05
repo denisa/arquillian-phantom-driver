@@ -133,7 +133,7 @@
     </profiles>
 
     <scm>
-        <connection>ssh://git@github.com/denisa/arquillian-phantom-driver.git</connection>
+        <connection>scm:git:ssh://git@github.com/denisa/arquillian-phantom-driver.git</connection>
         <developerConnection>${project.scm.connection}</developerConnection>
         <tag>1.0.3</tag>
         <url>https://github.com/qa/arquillian-phantom-driver</url>
